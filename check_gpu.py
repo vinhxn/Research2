@@ -27,7 +27,7 @@ if gpu_status["available"]:
 else:
   print("No GPU available.")
 
-#Example of using the available boolean to control logic.
+#Print the device being used
 if gpu_status["available"]:
   device = torch.device("cuda") #use cuda device
 else:
